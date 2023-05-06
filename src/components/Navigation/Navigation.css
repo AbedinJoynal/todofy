@@ -1,0 +1,23 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.navigation button {
+    background-color: transparent;
+    color: #4facfe;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation button:hover {
+    background-color: rgba(79, 172, 254, 0.1);
+}
+
+.navigation button.active {
+    color: #00f2fe;
+    font-weight: bold;
+}
